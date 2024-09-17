@@ -20,8 +20,8 @@ def test_class_averages_for_multiple_students_and_classes():
         }
     }
     expected = {
-        "Math": 88.17,
-        "Science": 85.67,
+        "Math": 88.17, # 87.88
+        "Science": 85.67, # 85.33
         "History": 81.5
     }
     result = calculate_class_averages(school_scores)
